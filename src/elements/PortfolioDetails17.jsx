@@ -127,6 +127,12 @@ class PortfolioDetails17 extends Component {
                           <FiCheck />
                           Oscillators
                         </li>
+                        <li>
+                          <br></br>
+                        </li>
+                        <li>
+                          <br></br>
+                        </li>
                       </ul>
                     </div>
                     <div className="pricing-footer">
@@ -242,6 +248,9 @@ class PortfolioDetails17 extends Component {
                         <li>
                           <FiCheck />
                           Voltage References
+                        </li>
+                        <li>
+                          <br></br>
                         </li>
                       </ul>
                     </div>

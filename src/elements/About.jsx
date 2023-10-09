@@ -164,73 +164,45 @@ class About extends Component {
         {/* End Service Area  */}
 
         {/* Start About Area  */}
-        <div className="rn-about-area ptb--120 bg_color--5">
-          <div className="container">
-            <div className="row row--35 align-items-center">
-              <div className="col-lg-6 order-2 order-lg-1">
-                <div className="about-inner inner">
-                  <div className="counterup_style--1 section-title">
-                    <h2 className="title text-justify">About</h2>
-                    <p className=" text-justify">
-                      Welcome to Asia Tech & Trading Limited - Your Premier
-                      Wholesale Partner for Technological Solutions.At Asia
-                      Tech, located in the vibrant hub of Hong Kong, we take
-                      immense pride in being a dominant force in the world of
-                      wholesale distribution and trade. We stand as a stalwart
-                      figure in the industry, specializing in an extensive array
-                      of computer products, components, and cutting-edge tech
-                      marvels. With an unwavering focus on superior quality and
-                      unbeatable prices, we have firmly established ourselves as
-                      a prominent player in the global wholesale arena.
-                    </p>
-                  </div>
-                  {/* <div className="mt--30">
-                                        <h4>Lorem ipsum dolor sit.</h4>
-                                        <ul className="list-style--1">
-                                            {namesItemOne.map((name, index) => {
-                                                return <li key={ index }><FiCheck /> {name}</li>;
-                                            })}
-                                        </ul>
-                                    </div>
-                                    <div className="mt--30">
-                                        <h4>Lorem ipsum dolor sit.</h4>
-                                        <ul className="list-style--1">
-                                            {namesItemTwo.map((name, index) => {
-                                                return <li key={ index }><FiCheck /> {name}</li>;
-                                            })}
-                                        </ul>
-                                    </div> */}
-                </div>
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+        <div className=" rn-finding-us-area rn-finding-us bg_color--1">
+          <div className="inner">
+            <div className="content-wrapper ">
+              <div className="content">
+                <h5 className="theme-gradient tilte text-justify">
+                  Explore Our Diverse Product Range
+                </h5>
+                <p className="text-justify">
+                  Uncover an array of tech solutions within Asia Tech's
+                  expansive catalog, encompassing over 1000 top-tier products.
+                  Our selection spans across computer components, mobile parts,
+                  state-of-the-art television innovations, and a host of other
+                  offerings. We are dedicated to continually expanding our
+                  inventory to ensure we meet your evolving technological needs
+                  effectively.
+                </p>
+                <a className="rn-btn btn-white" href="/about">
+                  Explore
+                </a>
               </div>
-              <div className="col-lg-6 order-1 order-lg-2">
-                <div className="thumbnail position-relative">
-                  <video
-                    className="w-100"
-                    src="/assets/images/about/production_id_4300496 (720p).mp4"
-                    type="video/mp4"
-                    alt="About Images"
-                    height="600px"
-                    autoPlay
-                    loop
-                  ></video>
-                  <ModalVideo
-                    channel="youtube"
-                    isOpen={this.state.isOpen}
-                    videoId="cUN3NOR-iPA"
-                    onClose={() => this.setState({ isOpen: false })}
-                  />
-
-                  <button
-                    className="video-popup position-top-center theme-color"
-                    onClick={this.openModal}
-                  >
-                    <span className="play-icon"></span>
-                  </button>
-                </div>
+            </div>
+            <div className="thumbnail">
+              <div className="image">
+                <img
+                  src="/assets/images/bg/bg-image-3.jpg"
+                  alt="Finding Images"
+                />
               </div>
             </div>
           </div>
         </div>
+        <hr />
+        <hr />
+        <hr />
+        <hr />
         {/* End About Area  */}
 
         {/* Start CounterUp Area */}
@@ -289,41 +261,7 @@ class About extends Component {
         </div>
 
         {/* Start Finding Us Area  */}
-        <div className=" rn-finding-us-area rn-finding-us bg_color--1">
-          <div className="inner">
-            <div className="content-wrapper ">
-              <div className="content">
-                <h5 className="theme-gradient tilte text-justify">
-                  Explore Our Diverse Product Range
-                </h5>
-                <p className="text-justify">
-                  Uncover an array of tech solutions within Asia Tech's
-                  expansive catalog, encompassing over 1000 top-tier products.
-                  Our selection spans across computer components, mobile parts,
-                  state-of-the-art television innovations, and a host of other
-                  offerings. We are dedicated to continually expanding our
-                  inventory to ensure we meet your evolving technological needs
-                  effectively.
-                </p>
-                <a className="rn-btn btn-white" href="/about">
-                  Explore
-                </a>
-              </div>
-            </div>
-            <div className="thumbnail">
-              <div className="image">
-                <img
-                  src="/assets/images/bg/bg-image-22.jpg"
-                  alt="Finding Images"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <hr />
-        <hr />
-        <hr />
+
         {/* End Finding Us Area  */}
 
         {/* Start Team Area  */}

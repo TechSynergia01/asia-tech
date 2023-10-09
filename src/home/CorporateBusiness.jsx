@@ -266,7 +266,7 @@ class CorporateBusiness extends Component {
 
         {/* Start Counterup Area */}
         <div
-          className="counterup-area pb--80 pt--40 bg_image bg_image--12  theme-text-white text-center"
+          className="counterup-area pb--80 pt--40 bg_image bg_image--24  theme-text-white text-center"
           data-black-overlay="7"
         >
           <div className="container ">
@@ -297,6 +297,7 @@ class CorporateBusiness extends Component {
                     className="w-100"
                     src="/assets/images/about/10years.svg"
                     alt="About Images"
+                    style={{ boxShadow: "unset" }}
                   />
                 </div>
               </div>
