@@ -295,7 +295,7 @@ class CorporateBusiness extends Component {
                 <div className="thumbnail">
                   <img
                     className="w-100"
-                    src="/assets/images/about/10years.svg"
+                    src="/assets/images/about/10years.jpg"
                     alt="About Images"
                     style={{ boxShadow: "unset" }}
                   />

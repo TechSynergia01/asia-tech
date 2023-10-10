@@ -122,16 +122,6 @@ class About extends Component {
                           </p>
                         </div>
                       </div>
-                      {/* <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                                                <div className="about-us-list">
-                                                    <h3 className="title">What Sets Us Apart:</h3>
-                                                    <p> Vast Product Range 
-                                                        <hr />
-                                                    Unrivaled Brands 
-                                                    <hr />
-                                                    Wholesale Supremacy</p>
-                                                </div>
-                                            </div> */}
                     </div>
                   </div>
                 </div>
@@ -163,46 +153,63 @@ class About extends Component {
         </div>
         {/* End Service Area  */}
 
-        {/* Start About Area  */}
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <div className=" rn-finding-us-area rn-finding-us bg_color--1">
-          <div className="inner">
-            <div className="content-wrapper ">
-              <div className="content">
-                <h5 className="theme-gradient tilte text-justify">
-                  Explore Our Diverse Product Range
-                </h5>
-                <p className="text-justify">
-                  Uncover an array of tech solutions within Asia Tech's
-                  expansive catalog, encompassing over 1000 top-tier products.
-                  Our selection spans across computer components, mobile parts,
-                  state-of-the-art television innovations, and a host of other
-                  offerings. We are dedicated to continually expanding our
-                  inventory to ensure we meet your evolving technological needs
-                  effectively.
-                </p>
-                <a className="rn-btn btn-white" href="/about">
-                  Explore
-                </a>
-              </div>
-            </div>
-            <div className="thumbnail">
-              <div className="image">
-                <img
-                  src="/assets/images/bg/bg-image-3.jpg"
-                  alt="Finding Images"
-                />
+        <div className="rn-about-area ptb--120 bg_color--1">
+          <div className="rn-about-wrapper">
+            <div className="container">
+              <div
+                className="row row--35 align-items-center"
+                style={{ flexDirection: "row-reverse" }}
+              >
+                <div className="col-lg-5">
+                  <div className="thumbnail">
+                    <img
+                      className="w-100"
+                      height={"600px"}
+                      src="/assets/images/about/section3.jpg"
+                      alt="About Images"
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-7 text-justify">
+                  <div className="about-inner inner">
+                    <div className="section-title">
+                      {/* <h2 className="title">{title}</h2> */}
+                      {/* <p>{description}</p> */}
+                    </div>
+                    <hr />
+                    <hr />
+                    <hr />
+                    <div className="row mt--30">
+                      <div className="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div className="section-title ">
+                          <h3 className="title">
+                            Explore Our Diverse Product Range
+                          </h3>
+                          <p>
+                            Uncover an array of tech solutions within Asia
+                            Tech's expansive catalog, encompassing over 1000
+                            top-tier products. Our selection spans across
+                            computer components, mobile parts, state-of-the-art
+                            television innovations, and a host of other
+                            offerings. We are dedicated to continually expanding
+                            our inventory to ensure we meet your evolving
+                            technological needs effectively.
+                          </p>
+                          <a className="rn-btn" href="/product">
+                            Explore
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <hr />
-        <hr />
-        <hr />
-        <hr />
+
+        {/* Start About Area  */}
+
         {/* End About Area  */}
 
         {/* Start CounterUp Area */}
@@ -290,20 +297,11 @@ class About extends Component {
                       <img
                         className="w-100"
                         height={"500px"}
-                        src="/assets/images/team/team-01.jpeg"
+                        src="/assets/images/team/team-01.jpg"
                         alt="Blog Images"
                       />
                     </div>
                   </NavLink>
-                  {/* <div className="content">
-                                        <h4 className="title">Jone Due</h4>
-                                        <p className="designation">Sr. Web Developer</p>
-                                    </div>
-                                    <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
-                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
-                                    </ul> */}
                 </div>
               </div>
               {/* End Single Team  */}
@@ -316,20 +314,11 @@ class About extends Component {
                       <img
                         className="w-100"
                         height={"500px"}
-                        src="/assets/images/team/team-02.jpeg"
+                        src="/assets/images/team/team-02.jpg"
                         alt="Blog Images"
                       />
                     </div>
                   </NavLink>
-                  {/* <div className="content">
-                                        <h4 className="title">BM. Alamin</h4>
-                                        <p className="designation">Sr. Web Developer</p>
-                                    </div>
-                                    <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
-                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
-                                    </ul> */}
                 </div>
               </div>
               {/* End Single Team  */}
@@ -342,20 +331,113 @@ class About extends Component {
                       <img
                         className="w-100"
                         height={"500px"}
-                        src="/assets/images/team/satechi_slim_usb-c_multiport_adapter_version_2_black_4.jpeg"
+                        src="/assets/images/team/team-03.jpg"
                         alt="Blog Images"
                       />
                     </div>
                   </NavLink>
-                  {/* <div className="content">
-                                        <h4 className="title">Jone Due</h4>
-                                        <p className="designation">Sr. Web Developer</p>
-                                    </div>
-                                    <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
-                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
-                                    </ul> */}
+                </div>
+              </div>
+              {/* End Single Team  */}
+
+              {/* Start Single Team  */}
+              <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                <div className="team">
+                  <NavLink to={"/product"}>
+                    <div className="thumbnail">
+                      <img
+                        className="w-100"
+                        height={"500px"}
+                        src="/assets/images/team/team-04.jpg"
+                        alt="Blog Images"
+                      />
+                    </div>
+                  </NavLink>
+                </div>
+              </div>
+              {/* End Single Team  */}
+
+              {/* Start Single Team  */}
+              <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                <div className="team">
+                  <NavLink to={"/product"}>
+                    <div className="thumbnail">
+                      <img
+                        className="w-100"
+                        height={"500px"}
+                        src="/assets/images/team/team-05.jpg"
+                        alt="Blog Images"
+                      />
+                    </div>
+                  </NavLink>
+                </div>
+              </div>
+              {/* End Single Team  */}
+
+              {/* Start Single Team  */}
+              <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                <div className="team">
+                  <NavLink to={"/product"}>
+                    <div className="thumbnail">
+                      <img
+                        className="w-100"
+                        height={"500px"}
+                        src="/assets/images/team/team-06.jpg"
+                        alt="Blog Images"
+                      />
+                    </div>
+                  </NavLink>
+                </div>
+              </div>
+              {/* End Single Team  */}
+
+              {/* Start Single Team  */}
+              <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                <div className="team">
+                  <NavLink to={"/product"}>
+                    <div className="thumbnail">
+                      <img
+                        className="w-100"
+                        height={"500px"}
+                        src="/assets/images/team/team-07.jpg"
+                        alt="Blog Images"
+                      />
+                    </div>
+                  </NavLink>
+                </div>
+              </div>
+              {/* End Single Team  */}
+
+              {/* Start Single Team  */}
+              <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                <div className="team">
+                  <NavLink to={"/product"}>
+                    <div className="thumbnail">
+                      <img
+                        className="w-100"
+                        height={"500px"}
+                        src="/assets/images/team/team-08.jpg"
+                        alt="Blog Images"
+                      />
+                    </div>
+                  </NavLink>
+                </div>
+              </div>
+              {/* End Single Team  */}
+
+              {/* Start Single Team  */}
+              <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                <div className="team">
+                  <NavLink to={"/product"}>
+                    <div className="thumbnail">
+                      <img
+                        className="w-100"
+                        height={"500px"}
+                        src="/assets/images/team/team-09.jpg"
+                        alt="Blog Images"
+                      />
+                    </div>
+                  </NavLink>
                 </div>
               </div>
               {/* End Single Team  */}
