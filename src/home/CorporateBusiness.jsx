@@ -205,8 +205,10 @@ class CorporateBusiness extends Component {
                   key={i}
                 >
                   <a className="text-center">
-                    <div className="service service__style--2">
-                      <div className="icon">{val.icon}</div>
+                    <div className="service service__style--1">
+                      <div className="icon" style={{ fontSize: "32px" }}>
+                        {val.icon}
+                      </div>
                       <div className="content">
                         <h3 className="title">{val.title}</h3>
                         <p className="text-justify">{val.description}</p>
@@ -271,11 +273,11 @@ class CorporateBusiness extends Component {
         >
           <div className="container ">
             <div className="row ">
-              <div className="col-lg-12 m-5 ">
+              <div className="col-lg-12 m-1 ">
                 <div className="section-title text-center">
-                  <h3 className="fontWeight500 text-danger text-center  text-uppercase">
+                  {/* <h3 className="fontWeight500 text-danger text-center  text-uppercase">
                     Quick Overview
-                  </h3>
+                  </h3> */}
                 </div>
               </div>
             </div>

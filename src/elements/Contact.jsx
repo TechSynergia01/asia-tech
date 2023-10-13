@@ -10,17 +10,28 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/FooterTwo";
 import CallAction from "../elements/callaction/CallAction";
+import { Map, View } from "ol";
+import { fromLonLat } from "ol/proj";
+import TileLayer from "ol/layer/Tile";
+import OSM from "ol/source/OSM";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 class Contact extends Component {
-  static defaultProps = {
-    center: {
-      lat: 22.3186,
-      lng: 114.1796,
-    },
-    zoom: 11,
-  };
+  componentDidMount() {
+    new Map({
+      target: "map",
+      layers: [
+        new TileLayer({
+          source: new OSM(),
+        }),
+      ],
+      view: new View({
+        center: fromLonLat([114.1796, 22.3186]),
+        zoom: 10,
+      }),
+    });
+  }
 
   render() {
     return (
@@ -225,19 +236,7 @@ class Contact extends Component {
 
         {/* Start Contact Map  */}
         <div className="rn-contact-map-area position-relative">
-          <div style={{ height: "650px", width: "100%" }}>
-            <GoogleMapReact
-              bootstrapURLKeys={{ key: "" }}
-              defaultCenter={this.props.center}
-              defaultZoom={this.props.zoom}
-            >
-              <AnyReactComponent
-                lat={22.3186}
-                lng={114.1796}
-                text="My Marker"
-              />
-            </GoogleMapReact>
-          </div>
+          <div id="map" style={{ height: "650px", width: "100%" }}></div>
         </div>
         <hr />
         <hr />

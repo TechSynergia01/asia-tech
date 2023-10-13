@@ -142,7 +142,7 @@ class Portfolio extends Component {
                   </div>
                   <div className="content">
                     <div className="inner">
-                      <p>{value.category}</p>
+                      {/* <p>{value.category}</p> */}
                       <h4 className="title">
                         <a href="/portfolio-details">{value.title}</a>
                       </h4>

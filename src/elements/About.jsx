@@ -1,56 +1,64 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
-import CounterOne from "../elements/counters/CounterOne";
+// import CounterOne from "../elements/counters/CounterOne";
 import Testimonial from "../elements/Testimonial";
-import { videoTagString, VideoTag } from "react-video-tag";
-import ModalVideo from "react-modal-video";
+// import { videoTagString, VideoTag } from "react-video-tag";
+// import ModalVideo from "react-modal-video";
 import ServiceList from "../elements/service/ServiceList";
-import BrandTwo from "../elements/BrandTwo";
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import Slider from "react-slick";
-import { slideSlick } from "../page-demo/script";
-import { FiCast, FiLayers, FiUsers, FiCheck } from "react-icons/fi";
+// import BrandTwo from "../elements/BrandTwo";
+// import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+// import Slider from "react-slick";
+// import { slideSlick } from "../page-demo/script";
+import {
+  FiCheck,
+  FiActivity,
+  FiCpu,
+  FiClipboard,
+  FiArchive,
+  FiCompass,
+} from "react-icons/fi";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
+import Portfolio2 from "../component/HomeLayout/homeOne/Portfolio2";
 
 const ServiceListOne = [
   {
-    icon: "icon-01.png",
+    icon: <FiActivity />,
     title: "Unbeatable Wholesale Prices",
     description:
       "Our strong relationships with manufacturers and brands allow us to offer you the most competetive prices.",
   },
   {
-    icon: "icon-02.png",
+    icon: <FiCheck />,
     title: "Global Reach",
     description:
       "Our influence extends beyond Hong Kong, catering to international clients with the same level of dedication.",
   },
   {
-    icon: "icon-03.png",
+    icon: <FiCompass />,
     title: "Best Customer Support",
     description:
       "When you partner with us, Our devoted support team is here to assist you at every step of the way.",
   },
   {
-    icon: "icon-01.png",
+    icon: <FiCpu />,
     title: "Reliability and Trust",
     description:
       "With our extensive industry experience, we have built a reputation for reliability and quality that you can depend on.",
   },
   {
-    icon: "icon-02.png",
+    icon: <FiClipboard />,
     title: "Pioneering Excellence",
     description:
       "We lead in wholesale tech distribution, driving industry advancement through innovation and exceptional service.",
   },
 
   {
-    icon: "icon-03.png",
+    icon: <FiArchive />,
     title: "Exceptional Product Selection",
     description:
       "We offer an extensive range of products, ensuring you have access to the latest and greatest in the market.",
@@ -69,7 +77,7 @@ class About extends Component {
     this.setState({ isOpen: true });
   }
   render() {
-    let title = "About",
+    let title = "About Asia Tech & Trading",
       description =
         "Welcome to Asia Tech & Trading Limited - Your Premier Wholesale Partner for Technological Solutions. At Asia Tech, located in the vibrant hub of Hong Kong, we take immense pride in being a dominant force in the world of wholesale distribution and trade. We stand as a stalwart figure in the industry, specializing in an extensive array of computer products, components, and cutting-edge tech marvels. With an unwavering focus on superior quality and unbeatable prices, we have firmly established ourselves as a prominent player in the global wholesale arena.";
     return (
@@ -103,7 +111,9 @@ class About extends Component {
                 <div className="col-lg-7 text-justify">
                   <div className="about-inner inner">
                     <div className="section-title">
-                      {/* <h2 className="title">{title}</h2> */}
+                      <h2 className="title" style={{ fontSize: "48px" }}>
+                        {title}
+                      </h2>
                       <p>{description}</p>
                     </div>
                     <hr />
@@ -208,27 +218,6 @@ class About extends Component {
           </div>
         </div>
 
-        {/* Start About Area  */}
-
-        {/* End About Area  */}
-
-        {/* Start CounterUp Area */}
-        {/* <div className="rn-counterup-area pb--120 bg_color--1">
-                 <div className="counterup-area pb--80 pt--40 bg_image bg_image--33  theme-text-white" data-black-overlay="7">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12 m-5">
-                                <div className="section-title text-center">
-                                    <h3 className="fontWeight500 text-danger">Quick Overview</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <CounterOne />
-                        </div>
-                        
-                    </div>
-                </div> */}
-
         <div
           className="service-area creative-service-wrapper  bg_color--1 "
           id="service"
@@ -250,10 +239,16 @@ class About extends Component {
                   <a>
                     <div className="about-inner inner  ">
                       <div className="icon p-4 text-center ">
-                        <img
+                        <div
+                          className="icon"
+                          style={{ color: "red", fontSize: "48px" }}
+                        >
+                          {val.icon}
+                        </div>
+                        {/* <img
                           src={`/assets/images/icons/${val.icon}`}
                           alt="Service Icon"
-                        />
+                        /> */}
                       </div>
                       <div className="content text-justify ml-3">
                         <h4 className="title text-center">{val.title}</h4>
@@ -272,7 +267,7 @@ class About extends Component {
         {/* End Finding Us Area  */}
 
         {/* Start Team Area  */}
-        <div className="rn-team-area bg_color--1 ptb--120">
+        {/* <div className="rn-team-area bg_color--1 ptb--120">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -289,7 +284,6 @@ class About extends Component {
               </div>
             </div>
             <div className="row">
-              {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div className="team">
                   <NavLink to={"/product"}>
@@ -304,9 +298,7 @@ class About extends Component {
                   </NavLink>
                 </div>
               </div>
-              {/* End Single Team  */}
 
-              {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div className="team">
                   <NavLink to={"/product"}>
@@ -321,9 +313,7 @@ class About extends Component {
                   </NavLink>
                 </div>
               </div>
-              {/* End Single Team  */}
 
-              {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div className="team">
                   <NavLink to={"/product"}>
@@ -338,9 +328,7 @@ class About extends Component {
                   </NavLink>
                 </div>
               </div>
-              {/* End Single Team  */}
 
-              {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div className="team">
                   <NavLink to={"/product"}>
@@ -355,9 +343,7 @@ class About extends Component {
                   </NavLink>
                 </div>
               </div>
-              {/* End Single Team  */}
 
-              {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div className="team">
                   <NavLink to={"/product"}>
@@ -372,9 +358,7 @@ class About extends Component {
                   </NavLink>
                 </div>
               </div>
-              {/* End Single Team  */}
 
-              {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div className="team">
                   <NavLink to={"/product"}>
@@ -389,9 +373,7 @@ class About extends Component {
                   </NavLink>
                 </div>
               </div>
-              {/* End Single Team  */}
 
-              {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div className="team">
                   <NavLink to={"/product"}>
@@ -406,9 +388,7 @@ class About extends Component {
                   </NavLink>
                 </div>
               </div>
-              {/* End Single Team  */}
 
-              {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div className="team">
                   <NavLink to={"/product"}>
@@ -423,9 +403,7 @@ class About extends Component {
                   </NavLink>
                 </div>
               </div>
-              {/* End Single Team  */}
 
-              {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div className="team">
                   <NavLink to={"/product"}>
@@ -440,11 +418,37 @@ class About extends Component {
                   </NavLink>
                 </div>
               </div>
-              {/* End Single Team  */}
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Team Area  */}
+
+        <div className="rn-team-area ptb--60 bg_color--1">
+          <div className="container">
+            <div className="row row--35">
+              <div className="col-lg-12">
+                <div className="section-title service-style--3 text-center mb--25 mb_sm--0">
+                  <h2 className="title">New Products</h2>
+                  <p>
+                    Explore Asia Tech's extensive catalog featuring over 1000
+                    high-quality products, including computer components, mobile
+                    parts, television innovations, and much more. We
+                    continuously expand our offerings to meet your evolving
+                    technological needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* <div className="row"> */}
+            {/* <Team column="col-lg-3 col-md-6 col-sm-6 col-12 mt--30" teamStyle="" item="4" /> */}
+            <div className="portfolio-area  bg_color--1">
+              <div className="portfolio-sacousel-inner mb--55">
+                <Portfolio2 />
+              </div>
+            </div>
+          </div>
+          {/* </div> */}
+        </div>
 
         {/* Start Testimonial Area */}
         <div className="rn-testimonial-area bg_color--5 ptb--120">
