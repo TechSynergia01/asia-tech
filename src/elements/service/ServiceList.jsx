@@ -1,5 +1,13 @@
 import React, { Component } from "react";
-import { FiCast, FiLayers, FiUsers, FiMonitor } from "react-icons/fi";
+import {
+  FiCast,
+  FiLayers,
+  FiUsers,
+  FiMonitor,
+  FiAnchor,
+  FiAirplay,
+  FiBriefcase,
+} from "react-icons/fi";
 
 const ServiceList = [
   {
@@ -20,18 +28,18 @@ const ServiceList = [
       "Access genuine parts to ensure impeccable repairs and maintenance.",
   },
   {
-    icon: <FiMonitor />,
+    icon: <FiAirplay />,
     title: "Local Distributors",
     description:
       "Partner with us for a consistent supply of top-tier tech merchandise.",
   },
   {
-    icon: <FiUsers />,
+    icon: <FiAnchor />,
     title: "System Integrators",
     description: "Leverage our components for seamless system integration.",
   },
   {
-    icon: <FiMonitor />,
+    icon: <FiBriefcase />,
     title: "Corporate Procurements",
     description:
       "Streamline your procurement processes with our efficiency and reliability.",

@@ -37,20 +37,20 @@ const ServiceListOne = [
       "When you partner with us, Our devoted support team is here to assist you at every step of the way.",
   },
   {
-    icon: "icon-02.png",
+    icon: "icon-01.png",
     title: "Reliability and Trust",
     description:
       "With our extensive industry experience, we have built a reputation for reliability and quality that you can depend on.",
   },
   {
-    icon: "icon-01.png",
+    icon: "icon-02.png",
     title: "Pioneering Excellence",
     description:
       "We lead in wholesale tech distribution, driving industry advancement through innovation and exceptional service.",
   },
 
   {
-    icon: "icon-01.png",
+    icon: "icon-03.png",
     title: "Exceptional Product Selection",
     description:
       "We offer an extensive range of products, ensuring you have access to the latest and greatest in the market.",
