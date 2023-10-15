@@ -53,11 +53,11 @@ class PortfolioDetails13 extends Component {
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
                   <h2 className="title theme-gradient">Gaming Accessories</h2>
-                  <p>
+                  {/* <p>
                     A video game accessory is a distinct piece of hardware that
                     is required to use a video game console, or one that
                     enriches the video game's play experience.{" "}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -70,8 +70,8 @@ class PortfolioDetails13 extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0 text-justify">
-                  <h2 className="title">Gaming Accessories</h2>
-                  <p className="text-justify">
+                  {/* <h2 className="title">Gaming Accessories</h2> */}
+                  <p style={{ padding: "unset" }}>
                     A video game accessory is a distinct piece of hardware that
                     is required to use a video game console, or one that
                     enriches the video game's play experience.

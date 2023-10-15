@@ -71,7 +71,7 @@ const PortfolioListContent = [
   {
     image: "image-12",
     // category: "Products",
-    title: "Audio and Music Equipment",
+    title: "Audio and Music Equipments",
     link: "/product-details11",
   },
   {

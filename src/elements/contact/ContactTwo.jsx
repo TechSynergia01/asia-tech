@@ -22,9 +22,9 @@ class ContactTwo extends Component {
             <div className="col-lg-6 col-sm-12 order-1 order-lg-2 p-5 pl-5 mt-5">
               <div className="thumbnail mb_md--30 mb_sm--30 ">
                 <img
-                  src="/assets/images/about/about-50.jpg"
+                  src="/assets/images/about/about-420.jpg"
                   alt="asistech"
-                  height={"53%"}
+                  height={"600px"}
                   width={"600px"}
                   style={{ marginBottom: "30px" }}
                 />

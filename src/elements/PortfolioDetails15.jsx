@@ -55,10 +55,10 @@ class PortfolioDetails15 extends Component {
                   <h2 className="title theme-gradient">
                     Photography and Videography Gear
                   </h2>
-                  <p>
+                  {/* <p>
                     Gear" is any and all hardware used to produce photographic
                     images.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -71,8 +71,8 @@ class PortfolioDetails15 extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0 text-justify">
-                  <h2 className="title">Photography and Videography Gear</h2>
-                  <p className="text-justify">
+                  {/* <h2 className="title">Photography and Videography Gear</h2> */}
+                  <p style={{ padding: "unset" }}>
                     Gear" is any and all hardware used to produce photographic
                     images.
                   </p>

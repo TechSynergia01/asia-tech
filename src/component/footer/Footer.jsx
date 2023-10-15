@@ -1,14 +1,10 @@
 import React, { Component } from "react";
 import {
-  FaTwitter,
   FaInstagram,
   FaFacebookF,
   FaLinkedinIn,
   FaMailBulk,
-  FaVoicemail,
-  FaMailchimp,
   FaPhone,
-  FaSquareXTwitter,
 } from "react-icons/fa";
 
 const SocialShare = [

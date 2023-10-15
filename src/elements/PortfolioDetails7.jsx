@@ -55,7 +55,7 @@ class PortfolioDetails7 extends Component {
                   <h2 className="title theme-gradient">
                     Health and Fitness Tech
                   </h2>
-                  <p>Health and fitness technology is evolving very fast</p>
+                  {/* <p>Health and fitness technology is evolving very fast</p> */}
                 </div>
               </div>
             </div>
@@ -68,8 +68,8 @@ class PortfolioDetails7 extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0 text-justify">
-                  <h2 className="title">Health and Fitness Tech</h2>
-                  <p className="text-justify">
+                  {/* <h2 className="title">Health and Fitness Tech</h2> */}
+                  <p style={{ padding: "unset" }}>
                     Health and fitness technology is evolving very
                     fast.Healthcare technology, commonly referred to as
                     “healthtech”.

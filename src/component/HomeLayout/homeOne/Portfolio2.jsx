@@ -8,109 +8,109 @@ const PortfolioList = [
     image: "team-1",
     category: "Products",
     title: "Computer Components",
-    link: "/product-details",
+    link: "/product",
   },
   {
     image: "team-2",
     category: "Products",
     title: "Mobile Parts and Accessories",
-    link: "/product-details1",
+    link: "/product",
   },
   {
     image: "team-3",
     category: "Products",
     title: "Television Innovations",
-    link: "/product-details2",
+    link: "/product",
   },
   {
     image: "team-4",
     category: "Products",
     title: "Audio Equipments",
-    link: "/product-details3",
+    link: "/product",
   },
   {
     image: "team-5",
     category: "Products",
     title: "Networking Devices",
-    link: "/product-details4",
+    link: "/product",
   },
   {
     image: "team-6",
     category: "Products",
     title: "Home Automation",
-    link: "/product-details5",
+    link: "/product",
   },
   {
     image: "team-7",
     category: "Products",
     title: "Office Equipments",
-    link: "/product-details6",
+    link: "/product",
   },
   {
     image: "team-8",
     category: "Products",
     title: "Health and Fitness Tech",
-    link: "/product-details7",
+    link: "/product",
   },
   {
     image: "team-9",
     category: "Products",
     title: "Outdoor Tech",
-    link: "/product-details8",
+    link: "/product",
   },
   //   {
   //     image: "image-10",
   //     category: "Products",
   //     title: "Home Entertainment Accessories",
-  //     link: "/product-details9",
+  //     link: "/product-",
   //   },
   //   {
   //     image: "image-11",
   //     category: "Products",
   //     title: "Smart Home Devices",
-  //     link: "/product-details10",
+  //     link: "/product-0",
   //   },
   //   {
   //     image: "image-12",
   //     category: "Products",
   //     title: "Audio and Music Equipment",
-  //     link: "/product-details11",
+  //     link: "/product-1",
   //   },
   //   {
   //     image: "image-13",
   //     category: "Products",
   //     title: "Smart Wearables",
-  //     link: "/product-details12",
+  //     link: "/product-2",
   //   },
   //   {
   //     image: "image-14",
   //     category: "Products",
   //     title: "Gaming Accessories",
-  //     link: "/product-details13",
+  //     link: "/product-3",
   //   },
   //   {
   //     image: "image-15",
   //     category: "Products",
   //     title: "Other Tech Marvels",
-  //     link: "/product-details14",
+  //     link: "/product-4",
   //   },
   //   {
   //     image: "image-16",
   //     category: "Products",
   //     title: "Photography and Videography Gear",
-  //     link: "/product-details15",
+  //     link: "/product-5",
   //   },
   //   {
   //     image: "image-17",
   //     category: "Products",
   //     title: "Virtual and Augmented Reality",
-  //     link: "/product-details16",
+  //     link: "/product-6",
   //   },
   //   {
   //     image: "image-18",
   //     category: "Products",
   //     title: "Electronic Components",
-  //     link: "/product-details17",
+  //     link: "/product-7",
   //   },
 ];
 
@@ -142,18 +142,18 @@ class Portfolio extends Component {
                   </div>
                   <div className="content">
                     <div className="inner">
-                      {/* <p>{value.category}</p> */}
+                      <p>{value.category}</p>
                       <h4 className="title">
-                        {/* <a href="/portfolio-details">{value.title}</a> */}
+                        {/* <a href="/portfolio->{value.title}</a> */}
                       </h4>
                       <div className="portfolio-button">
-                        {/* <a className="rn-btn" href={value.link}>
-                          Product Details
-                        </a> */}
+                        <a className="rn-btn" href={value.link}>
+                          Explore
+                        </a>
                       </div>
                     </div>
                   </div>
-                  <Link className="link-overlay" to="/product"></Link>
+                  {/* <Link className="link-overlay" to="/product"></Link> */}
                 </div>
               ))}
             </Slider>

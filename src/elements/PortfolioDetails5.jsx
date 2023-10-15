@@ -53,10 +53,10 @@ class PortfolioDetails5 extends Component {
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
                   <h2 className="title theme-gradient">Home Automation</h2>
-                  <p>
+                  {/* <p>
                     “Home automation” refers to the automatic and electronic
                     control of household features, activity, and appliances.{" "}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -69,8 +69,8 @@ class PortfolioDetails5 extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0 text-justify">
-                  <h2 className="title">Home Automation</h2>
-                  <p className="text-justify">
+                  {/* <h2 className="title">Home Automation</h2> */}
+                  <p style={{ padding: "unset" }}>
                     Home Automation means you can easily control the utilities
                     and features of your home via the Internet to make life more
                     convenient and secure, and even spend less on household

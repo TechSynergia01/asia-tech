@@ -55,11 +55,11 @@ class PortfolioDetails17 extends Component {
                   <h2 className="title theme-gradient">
                     Electronic Components
                   </h2>
-                  <p>
+                  {/* <p>
                     An electronic component is any basic discrete electronic
                     device or physical entity part of an electronic system used
                     to affect electrons or their associated fields.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -72,8 +72,8 @@ class PortfolioDetails17 extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0 text-justify">
-                  <h2 className="title">Electronic Components</h2>
-                  <p className="text-justify">
+                  {/* <h2 className="title">Electronic Components</h2> */}
+                  <p style={{ padding: "unset" }}>
                     An electronic component is any basic discrete electronic
                     device or physical entity part of an electronic system used
                     to affect electrons or their associated fields.

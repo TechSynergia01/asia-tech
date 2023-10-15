@@ -111,19 +111,29 @@ class About extends Component {
                 <div className="col-lg-7 text-justify">
                   <div className="about-inner inner">
                     <div className="section-title">
-                      <h2 className="title" style={{ fontSize: "48px" }}>
+                      <h2
+                        className="title"
+                        style={{ fontSize: "48px", marginBottom: "10px" }}
+                      >
                         {title}
                       </h2>
-                      <p>{description}</p>
+                      <p style={{ lineHeight: "2.2rem" }}>{description}</p>
                     </div>
                     <hr />
                     <hr />
                     <hr />
+                    <hr />
+
                     <div className="row mt--30">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="section-title ">
-                          <h3 className="title">Our Core Mission</h3>
-                          <p>
+                          <h3
+                            className="title"
+                            style={{ marginBottom: "20px" }}
+                          >
+                            Our Core Mission
+                          </h3>
+                          <p style={{ lineHeight: "2.2rem" }}>
                             Our core mission at Asia Tech is to redefine the
                             wholesale experience by offering an unparalleled
                             range of technology solutions, bolstered by our
@@ -252,7 +262,7 @@ class About extends Component {
                       </div>
                       <div className="content text-justify ml-3">
                         <h4 className="title text-center">{val.title}</h4>
-                        <p>{val.description}</p>
+                        <p style={{ color: "gray" }}>{val.description}</p>
                       </div>
                     </div>
                   </a>

@@ -55,11 +55,11 @@ class PortfolioDetails9 extends Component {
                   <h2 className="title theme-gradient">
                     Home Entertainment Accessories
                   </h2>
-                  <p>
+                  {/* <p>
                     Home entertainment is the product category name for
                     electrical goods that include TVs, sound systems, DVD
                     players, and games consoles.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -72,8 +72,8 @@ class PortfolioDetails9 extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0 text-justify">
-                  <h2 className="title">Home Entertainment Accessories</h2>
-                  <p className="text-justify">
+                  {/* <h2 className="title">Home Entertainment Accessories</h2> */}
+                  <p style={{ padding: "unset" }}>
                     Home entertainment is the product category name for
                     electrical goods that include TVs, sound systems, DVD
                     players, and games consoles.

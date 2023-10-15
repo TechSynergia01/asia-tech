@@ -53,12 +53,12 @@ class PortfolioDetails6 extends Component {
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
                   <h2 className="title theme-gradient">Office Equipments</h2>
-                  <p>
+                  {/* <p>
                     Office Equipment means office furniture and office
                     equipment, including computers, printers, typewriters,
                     facsimile machines, photocopiers and telephone answering
                     machines, all used for business or professional purposes.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -71,8 +71,8 @@ class PortfolioDetails6 extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0 text-justify">
-                  <h2 className="title">Office Equipments</h2>
-                  <p className="text-justify">
+                  {/* <h2 className="title">Office Equipments</h2> */}
+                  <p style={{ padding: "unset" }}>
                     Office Equipment means office furniture and office
                     equipment, including computers, printers, typewriters,
                     facsimile machines, photocopiers and telephone answering

@@ -54,12 +54,12 @@ class PortfolioDetails4 extends Component {
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
                   <h2 className="title theme-gradient">Networking Devices</h2>
-                  <p>
+                  {/* <p>
                     Network Devices: Network devices, also known as networking
                     hardware, are physical devices that allow hardware on a
                     computer network to communicate and interact with one
                     another.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -72,8 +72,8 @@ class PortfolioDetails4 extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0 text-justify">
-                  <h2 className="title">Networking Devices</h2>
-                  <p className="text-justify">
+                  {/* <h2 className="title">Networking Devices</h2> */}
+                  <p style={{ padding: "unset" }}>
                     The primary purpose of network devices is to transmit and
                     receive data quickly and securely. "Network Devices" is a
                     broad term that encompasses a range of communication

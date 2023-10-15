@@ -53,10 +53,10 @@ class PortfolioDetails extends Component {
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
                   <h2 className="title theme-gradient">Computer Components</h2>
-                  <p>
+                  {/* <p>
                     The components that make up a computer are called computer
                     components.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -69,8 +69,8 @@ class PortfolioDetails extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0">
-                  <h2 className="title">Asia Tech</h2>
-                  <p>
+                  {/* <h2 className="title">Asia Tech</h2> */}
+                  <p style={{ padding: "unset" }}>
                     The five basic components of a computer are Input Unit,
                     Output Unit, Memory Unit, Control Unit and Arithmetic and
                     Logical Unit.

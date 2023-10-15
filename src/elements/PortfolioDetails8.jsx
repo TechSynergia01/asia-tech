@@ -53,10 +53,10 @@ class PortfolioDetails8 extends Component {
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
                   <h2 className="title theme-gradient">Outdoor Tech</h2>
-                  <p>
+                  {/* <p>
                     It means that despite the intense visual and emotional
                     stimulation of the surrounding internet.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -69,8 +69,8 @@ class PortfolioDetails8 extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0 text-justify">
-                  <h2 className="title">Outdoor Tech</h2>
-                  <p className="text-justify">
+                  {/* <h2 className="title">Outdoor Tech</h2> */}
+                  <p style={{ padding: "unset" }}>
                     It means that despite the intense visual and emotional
                     stimulation of the surrounding internet.
                   </p>

@@ -55,12 +55,12 @@ class PortfolioDetails16 extends Component {
                   <h2 className="title theme-gradient">
                     Virtual and Augmented Reality
                   </h2>
-                  <p>
+                  {/* <p>
                     Virtual Reality is the technology that provides almost real
                     and/or believable experiences in a synthetic or virtual way,
                     while Augmented Reality enhances the real world by
                     superimposing computer-generated information on top of it.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -73,8 +73,8 @@ class PortfolioDetails16 extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0 text-justify">
-                  <h2 className="title">Virtual and Augmented Reality</h2>
-                  <p className="text-justify">
+                  {/* <h2 className="title">Virtual and Augmented Reality</h2> */}
+                  <p style={{ padding: "unset" }}>
                     Virtual Reality is the technology that provides almost real
                     and/or believable experiences in a synthetic or virtual way,
                     while Augmented Reality enhances the real world by

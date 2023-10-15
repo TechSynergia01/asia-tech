@@ -53,11 +53,11 @@ class PortfolioDetails10 extends Component {
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
                   <h2 className="title theme-gradient">Smart Home Devices</h2>
-                  <p>
+                  {/* <p>
                     A smart device is any electronic device that can be
                     connected to your smart home system, that can interact with
                     other devices, and that can make some decisions on its own.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -70,8 +70,8 @@ class PortfolioDetails10 extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0 text-justify">
-                  <h2 className="title">Smart Home Devices</h2>
-                  <p className="text-justify">
+                  {/* <h2 className="title">Smart Home Devices</h2> */}
+                  <p style={{ padding: "unset" }}>
                     A smart device is any electronic device that can be
                     connected to your smart home system, that can interact with
                     other devices, and that can make some decisions on its own.

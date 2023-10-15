@@ -53,10 +53,10 @@ class PortfolioDetails12 extends Component {
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
                   <h2 className="title theme-gradient">Smart Wearables</h2>
-                  <p>
+                  {/* <p>
                     Wearable technology is any technology that is designed to be
                     used while worn..
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -69,8 +69,8 @@ class PortfolioDetails12 extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0 text-justify">
-                  <h2 className="title">Smart Wearables</h2>
-                  <p className="text-justify">
+                  {/* <h2 className="title">Smart Wearables</h2> */}
+                  <p style={{ padding: "unset" }}>
                     Wearable technology is any technology that is designed to be
                     used while worn.
                   </p>

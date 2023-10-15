@@ -1,21 +1,22 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import { FiHeadphones, FiMail, FiMapPin } from "react-icons/fi";
-import GoogleMapReact from "google-map-react";
+// import GoogleMapReact from "google-map-react";
 import ContactTwo from "../elements/contact/ContactTwo";
-import BrandTwo from "../elements/BrandTwo";
+// import BrandTwo from "../elements/BrandTwo";
 import Particles from "react-tsparticles";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
-import Footer from "../component/footer/FooterTwo";
-import CallAction from "../elements/callaction/CallAction";
+import Footer from "../component/footer/Footer";
+// import Footer from "../component/footer/FooterTwo";
+// import CallAction from "../elements/callaction/CallAction";
 import { Map, View } from "ol";
 import { fromLonLat } from "ol/proj";
 import TileLayer from "ol/layer/Tile";
 import OSM from "ol/source/OSM";
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+// const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 class Contact extends Component {
   componentDidMount() {
@@ -27,8 +28,8 @@ class Contact extends Component {
         }),
       ],
       view: new View({
-        center: fromLonLat([114.1796, 22.3186]),
-        zoom: 10,
+        center: fromLonLat([114.183334, 22.316668]),
+        zoom: 12,
       }),
     });
   }
@@ -133,7 +134,7 @@ class Contact extends Component {
             />
           </div>
           <div
-            className="rn-page-title-area pt--120 pb--190 bg_image bg_image--27"
+            className="rn-page-title-area pt--120 pb--190 bg_image bg_image--35"
             data-black-overlay="3"
           >
             <div className="container">
@@ -236,25 +237,16 @@ class Contact extends Component {
 
         {/* Start Contact Map  */}
         <div className="rn-contact-map-area position-relative">
-          <div id="map" style={{ height: "650px", width: "100%" }}></div>
+          <div id="map" style={{ height: "550px", width: "100%" }}></div>
         </div>
         <hr />
         <hr />
         <hr />
         <hr />
+        <hr />
+        <hr />
+        <hr />
         {/* End Contact Map  */}
-
-        {/* Start Brand Area */}
-        {/* <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <BrandTwo />
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-        {/* End Brand Area */}
 
         {/* Start Back To Top */}
         <div className="backto-top">
@@ -264,7 +256,7 @@ class Contact extends Component {
         </div>
         {/* End Back To Top */}
         {/* Start call To Action  */}
-        <CallAction />
+        {/* <CallAction /> */}
         {/* End call To Action  */}
 
         {/* Start Footer Style  */}

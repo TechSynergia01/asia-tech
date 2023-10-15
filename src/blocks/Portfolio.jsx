@@ -89,7 +89,7 @@ const Portfolio = () => {
       {/* End Header Area  */}
 
       {/* Start Breadcrump Area */}
-      <Breadcrumb title={"Product"} />
+      <Breadcrumb title={"Products"} />
       {/* End Breadcrump Area */}
 
       {/* Start Page Wrapper  */}
