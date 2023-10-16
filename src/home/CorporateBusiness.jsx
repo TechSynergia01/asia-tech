@@ -302,7 +302,7 @@ class CorporateBusiness extends Component {
                 <div className="thumbnail">
                   <img
                     className="w-100"
-                    src="/assets/images/about/10years.jpg"
+                    src="/assets/images/about/10years.png"
                     alt="About Images"
                     style={{ boxShadow: "unset" }}
                   />
