@@ -230,13 +230,13 @@ class Contact extends Component {
         {/* End Contact Top Area  */}
 
         {/* Start Contact Page Area  */}
-        <div className="rn-contact-page ptb--120 bg_color--1">
+        <div className="rn-contact-page pb--120 bg_color--1">
           <ContactTwo />
         </div>
         {/* End Contact Page Area  */}
 
         {/* Start Contact Map  */}
-        <div className="rn-contact-map-area position-relative">
+        {/* <div className="rn-contact-map-area position-relative">
           <div id="map" style={{ height: "550px", width: "100%" }}></div>
         </div>
         <hr />
@@ -245,7 +245,7 @@ class Contact extends Component {
         <hr />
         <hr />
         <hr />
-        <hr />
+        <hr /> */}
         {/* End Contact Map  */}
 
         {/* Start Back To Top */}

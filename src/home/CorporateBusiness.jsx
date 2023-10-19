@@ -292,10 +292,7 @@ class CorporateBusiness extends Component {
         {/* End Counterup Area */}
 
         {/* Start About Area  */}
-        <div
-          className="rn-about-area ptb--120 bg_color--5"
-          style={{ background: "#DBDBDB" }}
-        >
+        <div className="rn-about-area ptb--120 bg_color--5">
           <div className="container">
             <div className="row row--35 align-items-center">
               <div className="col-lg-6">
