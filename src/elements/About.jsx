@@ -439,7 +439,7 @@ class About extends Component {
               <div className="col-lg-12">
                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0">
                   <h2 className="title">New Products</h2>
-                  <p>
+                  <p style={{ padding: "0px" }}>
                     Explore Asia Tech's extensive catalog featuring over 1000
                     high-quality products, including computer components, mobile
                     parts, television innovations, and much more. We
