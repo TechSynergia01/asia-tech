@@ -141,6 +141,7 @@ class CorporateBusiness extends Component {
                 >
                   <div className="video-background">
                     <VideoTag
+                      preload={`${"auto"}`}
                       autoPlay={`${true}`}
                       muted={`${true}`}
                       playsInline={`${true}`}
