@@ -146,7 +146,7 @@ class CorporateBusiness extends Component {
                       playsInline={`${true}`}
                       loop={`${true}`}
                       src={`${"/assets/images/bg/bg-image-32.mp4"}`}
-                      poster={`${"/assets/images/bg/bg-image-24.jpg"}`}
+                      // poster={`${"/assets/images/bg/bg-image-24.jpg"}`}
                     />
                   </div>
                   <div className="container">
